@@ -1,7 +1,7 @@
 # Magspoof R3
-[Rysc Corp](http://ryscc.com)
+[Rysc Corp](https://ryscc.com)
 
-The [Magspoof R3](http://https://ryscc.com/products/magspoof) is based on the following prior works:
+The [Magspoof R3](https://ryscc.com/products/magspoof) is based on the following prior works:
 
 * https://github.com/samyk/magspoof
 * https://github.com/salmg/MagSpoofPI
