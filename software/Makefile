@@ -5,7 +5,7 @@ CC=avr-gcc
 CFLAGS=-g -std=c99 -Os -Wall -w -mcall-prologues -mmcu=$(MCU) $(CPU_SPEED)
 OBJ2HEX=avr-objcopy
 AVRDUDE=avrdude
-PROGRAMMER ?= avrispmkII
+PROGRAMMER ?= usbtiny
 TARGET=magspoof
 
 $(TARGET).hex: $(TARGET).c
