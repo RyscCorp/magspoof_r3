@@ -130,7 +130,7 @@ static inline void invert_coil_pole()
 {
   f2f_pole ^= 1;
   set_pin(COIL_A, f2f_pole);
-#ifndef SINGLE_POL
+#ifndef SINGLE_POLE
   set_pin(COIL_B, !f2f_pole);
 #endif
 }
